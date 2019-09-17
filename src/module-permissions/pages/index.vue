@@ -153,6 +153,7 @@ export default {
     handleDelete(id) {
       remove({id}).then(res=> {
         this.$message({message:res.data.message,type:res.data.success?"success":"error"});
+        location.reload();
       })
     },
     getList() {
