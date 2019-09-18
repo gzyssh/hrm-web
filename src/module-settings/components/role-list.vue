@@ -84,8 +84,7 @@ export default {
   },
   methods: {
     assignPrem() {
-      console.log(this.$refs.tree.getCheckedKeys())
-      assignPrem({roleId:this.formData.id,ids:this.$refs.tree.getCheckedKeys()}).then(res => {
+      assignPrem({id:this.formData.id,permIds:this.$refs.tree.getCheckedKeys()}).then(res => {
          this.$message({message:res.data.message,type:res.data.success?"success":"error"});
           this.permFormVisible=false
       })
@@ -93,12 +92,7 @@ export default {
     handlerPerm(obj) {
        detail({id:obj.id}).then(res=>{
          this.formData = res.data.data;
-         if(this.formData.menusIds != null) {
-            this.checkNodes = this.formData.menusIds.split(",")
-         }
-         if(this.formData.pointIds != null) {
-          this.checkNodes.push(this.formData.pointIds.split(","))
-         }
+         this.checkNodes = res.data.data.permIds;
           permApi.list({type:0,pid:null}).then(res => {
             this.treeData = commonApi.transformTozTreeFormat(res.data.data)
             this.permFormVisible=true
