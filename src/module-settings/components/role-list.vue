@@ -46,6 +46,7 @@
         show-checkbox
         node-key="id"
         ref="tree"
+        :check-strictly="true"
         :default-checked-keys="checkNodes"
         :props="{label:'name'}">
       </el-tree>
