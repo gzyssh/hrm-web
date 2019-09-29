@@ -433,7 +433,7 @@ export default {
   // 创建完毕状态
   created: function() {
      deptApi.list().then(ret => {
-      this.depts = commonApi.transformTozTreeFormat(ret.data.data.depts)
+      this.depts = commonApi.transformTozTreeFormat(ret.data.data.departments)
     })
     this.setupUI()
   },
