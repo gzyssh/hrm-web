@@ -335,11 +335,12 @@ export function getBlob(response) {
     type: 'application/vnd.ms-excel'
   })
   let link = document.createElement('a')
+  link.style.display = 'none'
   link.href = window.URL.createObjectURL(blob)
-  var filename = decodeURI(response.headers.filename)
-  // link.download = filename + '.xls'
-  link.download = filename
+  link.download = decodeURI(response.headers['content-disposition'].split(';')[1].split('filename=')[1])
+  document.body.appendChild(link)
   link.click()
+  document.body.removeChild(link)
 }
 // 图片 blob 流转化为可用 src
 export function imgHandle(obj) {

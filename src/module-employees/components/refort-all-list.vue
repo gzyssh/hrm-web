@@ -265,10 +265,8 @@ export default {
       }
       importDown(data)
         .then(res => {
-          var elemIF = document.createElement("iframe");     
-          elemIF.src = res.request.responseURL;     
-          elemIF.style.display = "none";     
-          document.body.appendChild(elemIF);     
+          getBlob(res)
+          this.$message.success('导出报表成功！')
         })
         .catch(e => {
           this.$message.error('导出报表失败！')
