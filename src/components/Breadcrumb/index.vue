@@ -1,6 +1,6 @@
 <template>
 <div class="app-breadcrumb">
-  河南欣宜嘉医疗科技有限公司<span class="breadBtn">开发版</span>
+  河南欣宜嘉医疗科技有限公司
 </div>
 </template>
 
