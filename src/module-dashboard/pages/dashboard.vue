@@ -13,15 +13,15 @@
         </div>
         <div class="fr">
           <div class="headInfo numMs">
-            <p class="fontS">56</p>
+            <p class="fontS">0</p>
             <p>今日面试</p>
           </div>
           <div class="headInfo numRz">
-            <p class="fontS">56/24</p>
+            <p class="fontS">0/0</p>
             <p>今日入职</p>
           </div>
           <div class="headInfo numZ">
-            <p class="fontS">880</p>
+            <p class="fontS">...</p>
             <p>在职人数</p>
           </div>
         </div>
@@ -61,8 +61,8 @@
                     <div class="item">
                         <img  src="./../../assets/img.jpeg" alt="">
                         <div>
-                          <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
-                          <p>2018-07-21 15:21:38</p>
+                          <p><span class="col">yz</span> 发布了 Java跳槽计划</p>
+                          <p>2019-11-11 11:11:11</p>
                         </div>
                       </div>
                   </li>
@@ -70,8 +70,8 @@
                     <div class="item">
                         <img  src="./../../assets/img.jpeg" alt="">
                         <div>
-                          <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
-                          <p>2018-07-21 15:21:38</p>
+                          <p><span class="col">yz</span> 发布了 Java跳槽计划</p>
+                          <p>2019-11-11 11:11:11</p>
                         </div>
                       </div>
                   </li>
@@ -79,8 +79,8 @@
                     <div class="item">
                         <img  src="./../../assets/img.jpeg" alt="">
                         <div>
-                          <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
-                          <p>2018-07-21 15:21:38</p>
+                          <p><span class="col">yz</span> 发布了 Java跳槽计划</p>
+                          <p>2019-11-11 11:11:11</p>
                         </div>
                       </div>
                   </li>
@@ -88,8 +88,8 @@
                     <div class="item">
                         <img  src="./../../assets/img.jpeg" alt="">
                         <div>
-                          <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
-                          <p>2018-07-21 15:21:38</p>
+                          <p><span class="col">yz</span> 发布了 Java跳槽计划</p>
+                          <p>2019-11-11 11:11:11</p>
                         </div>
                       </div>
                   </li>
@@ -97,8 +97,8 @@
                     <div class="item">
                         <img  src="./../../assets/img.jpeg" alt="">
                         <div>
-                          <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
-                          <p>2018-07-21 15:21:38</p>
+                          <p><span class="col">yz</span> 发布了 Java跳槽计划</p>
+                          <p>2019-11-11 11:11:11</p>
                         </div>
                       </div>
                   </li>
@@ -106,8 +106,8 @@
                     <div class="item">
                         <img  src="./../../assets/img.jpeg" alt="">
                         <div>
-                          <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
-                          <p>2018-07-21 15:21:38</p>
+                          <p><span class="col">yz</span> 发布了 Java跳槽计划</p>
+                          <p>2019-11-11 11:11:11</p>
                         </div>
                       </div>
                   </li>
